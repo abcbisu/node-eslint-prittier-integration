@@ -1,0 +1,21 @@
+{
+  "name": "eslint-prittier-integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint . ",
+    "lint:fix": "eslint . --fix ",
+    "start": "nodemon ./src/index"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0"
+  }
+}
