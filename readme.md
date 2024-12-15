@@ -1,11 +1,9 @@
 ### install eslint-plugin
 ```
-yarn add eslint eslint-config-prettier prettier --save-dev
+yarn add --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier
 
 ```
 ### init eslint-plugin
 ```
 yarn eslint --init
 ```
-
-### eslint covers
